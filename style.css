@@ -1,0 +1,75 @@
+body {
+  background: linear-gradient(135deg, aliceblue, cornsilk);
+  color: #333; /* dark text for better contrast */
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  color: darkslategray;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 8px 12px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  margin: 5px;
+  font-size: 16px;
+  background-color: azure;
+  color: #333;
+}
+
+button {
+  background: lightblue;
+  color: #333;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: powderblue;
+}
+
+#countdown {
+  display: flex;
+  gap: 20px;
+}
+
+.time-box {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  border-radius: 15px;
+  min-width: 90px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.time-box span {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: midnightblue;
+}
+
+.label {
+  font-size: 1rem;
+  opacity: 0.8;
+  color: dimgray;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: darkolivegreen;
+}
